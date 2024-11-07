@@ -3,11 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=]p, initial-scale=1.0">
-    <title>Document</title>
+    <title>css selector</title>
+    <link rel="stylesheet" href="./stylecss">
+    <style>
+        a[target="_top"]{
+            background-color: pink;
+
+        }
+        a[target="_blank"]{
+            background-color: bisque;
+        }
+        a[target="_parent"]{
+            background-color: yellow;
+        }
+
+        body{
+            color: rgb(81, 81, 60);
+        }
+
+        div{
+
+            background-color: currentColor;
+        }
+        p{
+            
+        }
+
+
+
+    </style>
+
+
 </head>
 <body>
-    <p>
-        CSS
-    </p>
+<a href="https://www.wikipedia.org/" target="_top"> wikipedia</a>
+<a href="https://www.wikipedia.org/" target="_blank"> wikipedia</a>
+<a href="https://www.wikipedia.org/" target="_parent"> wikipedia</a>
+<a href="https://www.wikipedia.org/" target="_top"> wikipedia</a>
+
+
+<div class="class1">
+    <div class="class2"> hello</div>
+</div>
+
+
+<h2>the currentcolor keywoird</h2>
+<p> this is some </p>
+
+<div>
+    <p>hello</p>
+</div>
 </body>
 </html>

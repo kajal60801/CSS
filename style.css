@@ -1,0 +1,59 @@
+.class1 .class2{
+    background-color: red;
+}
+
+.class1.class2{
+    background-color: blue;
+}
+div[data-color]{
+    color:red
+}
+div[data-background]{
+    color:yellow
+}
+[class*="foo"]{
+    color:red
+}
+[class~="color-red"]{
+    color:red;
+}
+[class^="foo-"]{
+    color:red;
+}
+[class$="file"] {
+    color:red;
+}
+[lang ="EN"]{
+    color:red;
+}
+div span{
+    background-color: aqua;
+}
+a ~ span{
+    background-color: blueviolet;
+}
+p+ p{
+    color:red;
+}
+p~ p{
+    color:red;
+}
+.important{
+    color:orange
+}
+.warning{
+    color:blue
+}
+.warning.important{
+    color:red
+
+}
+p:last-of-type {
+    background:#2033b1
+}
+h1:last-of-type {
+    background: #959a63;
+}
+input:in-range{
+    border: 1px solid blue
+}

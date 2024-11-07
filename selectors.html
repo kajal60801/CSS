@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        a[target="_top"]{
+            background-color: yellow;
+        }
+        a[target="_blank"]{
+            background-color: purple;
+        }
+        a[target="_parent"]{
+            background-color: pink;
+        }
+    body{
+        color:purple;
+    }
+    div{
+        background-color:rgb(42, 165, 69)
+    }
+    </style>
+</head>
+<body>
+    <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+    <a href="http://www.goggle.com" target="_blank">goggle.com</a>
+    <a href="http://www.youtube.com" target="_parent">youtube.com</a>
+    <div class="class1">
+        <div class="class2">Hello World</div>
+    </div>
+  <div data-color="red">This will be red</div>
+  <div data-color="green">This will be red</div>
+  <div data-background="red">This will not be red</div>
+  <div class="foo-123">This will be red</div>
+  <div class="foo123">This will be red</div>
+  <div class="bar123foo">This will be red</div>
+  <div class="barfooo123">This will be red</div>
+  <div class="barfoO">This will not be red</div>
+   <div class="color-red foo-bar the-div">this will be red</div>
+   <div class="color blue foo-bar the div">this will not be red</div> 
+   <div class="foo-123">this will be red</div>
+   <div class="foo-234">this will be red</div>
+   <div class="bar-123">this will not be red</div>
+   <div class="foobar-file">this will be red</div>
+   <div class="foo-123">this will be red</div>
+   <div class="foobar-input">this will not be red</div>
+   <div class="EN-us">this will be red</div>
+   <div class="EN-gb">this will be red</div>
+   <div class="EN">this will notbe red</div>
+   <div>
+       <div>
+           <div>
+            <span>
+                hello
+            </span>
+
+           </div>
+       </div>
+   </div>
+   <div>
+    <span>hello what are you doing</span>
+   </div>
+   <p>my text is not red</p>
+   <p>my text is red</p>
+   <p>my text is red</p>
+   <hr>
+   <p>my text is not red</p>
+   <p>my text is not red</p>
+   <p>my text is red</p>
+   <hr>
+   <h1>and now a title</h1>
+   <div class="warning">
+    <p>this would be some warning copy</p>
+
+   </div>
+   <div class="important warning">
+   <p class="important">really important warning</p>
+</div>
+<div class=""container"
+>
+<p>first para</p>
+<p>second para</p>
+<p>last para</p>
+<h1>heading 1</h1>
+<h2>first heading</h2>
+<h3>last heading</h3>
+</div>
+<input type="number" min="10"max=20 value="15">
+<p>the borderfor this value will be zero</p>
+</body>
+</html>
