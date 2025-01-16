@@ -1,0 +1,26 @@
+@media only screen and (max-width:600px){}
+body{
+    background-color:rgb(154, 154, 226);
+}
+@media only screen and (min-width:768px){
+    .col-1{width:8.33%;}
+    .col-2{width:16.66%;}
+}
+@media only screen and (orientation:landscape){
+body{
+    background-color: antiquewhite;
+}}
+/* @media only screen and (min-width:600px){
+div.example{
+    display:none;
+}} */
+/* @media only screen and (min-width:601px){
+    div.example{
+        font-size: 80px;
+    }
+} */
+@media only screen and (min-width:600px){
+    div.example{
+        font-size: 80px;
+    }
+}
